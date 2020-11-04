@@ -13,7 +13,18 @@ This is a simple property listing application
 
 ## Resource
 
+- Price
+- Type
 - Name
+- Owner
+- Developer
+- Year built
+- Lot size
+- Building size
+- Number of bedrooms
+- Number of bathrooms
+- Parking lot
+- List of nearest objects
 - Location
   - address
   - city
@@ -23,13 +34,3 @@ This is a simple property listing application
   - geolocation
     - latitude
     - longitude
-- Developer
-- Owner
-- Price
-- Lot size
-- Year built
-- Building size
-- Number of bedrooms
-- Number of bathrooms
-- Parking lot
-- List of nearest objects
