@@ -94,3 +94,5 @@ const properties = [
     },
   },
 ]
+
+const propertyListElement = document.getElementById('property-list')
