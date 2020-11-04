@@ -13,6 +13,7 @@ This is a simple property listing application
 
 ## Resource
 
+- Image URL
 - Price
 - Type
 - Name
