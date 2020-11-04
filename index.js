@@ -34,4 +34,29 @@ const properties = [
       },
     },
   },
+  {
+    price: 0,
+    type: '',
+    name: ``,
+    owner: ``,
+    developer: '',
+    yearBuilt: 2000,
+    lotSize: 0,
+    buildingSize: 0,
+    numberOfBedrooms: 0,
+    numberOfBathrooms: 0,
+    parkingLot: true,
+    listOfNearestObject: [''], // Array
+    location: {
+      address: '',
+      city: '',
+      province: '',
+      zipCode: '',
+      country: '',
+      geolocation: {
+        lat: 0,
+        long: 0,
+      }, //Object
+    },
+  },
 ]
