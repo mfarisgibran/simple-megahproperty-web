@@ -1,2 +1,3 @@
-# simple-megahproperty-web
-Simple Megah Property Website
+# Simple Megah Property Website
+
+This is a simple property listing application
