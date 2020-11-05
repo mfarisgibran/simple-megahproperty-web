@@ -1,0 +1,49 @@
+body {
+  font-family: sans-serif;
+}
+
+.navigation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+}
+
+.logo h1 {
+  margin-left: 10px;
+}
+
+.navigation-links {
+  margin-left: 30px;
+}
+
+.navigation-links a {
+  color: #000;
+  margin-left: 10px;
+  text-decoration: none;
+}
+
+.property {
+  display: flex;
+  padding: 30px;
+}
+
+.property-info {
+  margin-left: 30px;
+}
+
+.property-image {
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.property-name {
+  color: rgb(0, 106, 255);
+}
+
+.property-price {
+  font-size: 24px;
+}

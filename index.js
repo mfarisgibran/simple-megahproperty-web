@@ -5,7 +5,7 @@ const propertyListElement = document.getElementById('property-list')
 const formatRupiah = (price) => {
   return new Intl.NumberFormat('id-ID', {
     style: 'currency',
-    currency: 'IDR',
+    currency: 'IDR'
   }).format(price)
 }
 
@@ -33,16 +33,24 @@ const formatLocation = (location) => {
 
 properties.forEach((property) => {
   const propertyElement = document.createElement('div')
+  propertyElement.classList.add('property')
+
   propertyElement.innerHTML = `
-  <img src='${property.imageUrl}' height='100'/>
-  <h1>${property.name}</h1>
-  <h2>${property.type} ${property.subtype}</h2>
-  <h3>${formatRupiah(property.price)}</h3>
-  <p>${formatBedroomText(property.numberOfBedrooms)} ${formatBathroomText(
-    property.numberOfBathrooms
-  )} ${property.unitSize} m²</p>
-  <p>${formatLocation(property.location)}</p>
-  <hr/>
+    <img class="property-image" src="${
+      property.imageUrl
+    }" height="250" width="350"/>
+    <div class="property-info">
+      <h1 class="property-name">${property.name}</h1>
+      <h2 class="property-price">${formatRupiah(property.price)}</h2>
+      <h3>${property.type} ${property.subtype}</h3>
+      <p>
+      <span>${formatBedroomText(property.numberOfBedrooms)} |</span>
+      <span>${formatBathroomText(property.numberOfBathrooms)} |</span>
+      <span>${property.unitSize} m²</span>
+      </p>
+      <p>${formatLocation(property.location)}</p>
+    </div>
   `
+
   propertyListElement.appendChild(propertyElement)
 })
