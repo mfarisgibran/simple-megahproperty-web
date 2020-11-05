@@ -34,7 +34,7 @@ const formatLocation = (location) => {
 properties.forEach((property) => {
   const propertyElement = document.createElement('div')
   propertyElement.innerHTML = `
-  <img src='/images/mfarisgibran-house.webp' height='100'/>
+  <img src='${property.imageUrl}' height='100'/>
   <h1>${property.name}</h1>
   <h2>${property.type} ${property.subtype}</h2>
   <h3>${formatRupiah(property.price)}</h3>

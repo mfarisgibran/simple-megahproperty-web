@@ -1,5 +1,6 @@
 export const properties = [
   {
+    imageUrl: '/images/mfarisgibran-house.webp',
     price: 2500000000,
     type: 'House',
     subtype: '',
@@ -37,6 +38,7 @@ export const properties = [
   },
 
   {
+    imageUrl: '/images/studio-type-a.png',
     price: 652377000,
     type: 'Apartment',
     subtype: 'Studio Type A',
@@ -83,6 +85,7 @@ export const properties = [
   },
 
   {
+    imageUrl: '/images/',
     price: 678424000,
     type: 'Apartment',
     subtype: 'Studio Type B',
@@ -129,6 +132,7 @@ export const properties = [
   },
 
   {
+    imageUrl: '/images/',
     price: 720356000,
     type: 'Apartment',
     subtype: 'Studio Type C',
@@ -175,6 +179,7 @@ export const properties = [
   },
 
   {
+    imageUrl: '/images/',
     price: 760891000,
     type: 'Apartment',
     subtype: 'Studio Type D',
@@ -221,6 +226,7 @@ export const properties = [
   },
 
   {
+    imageUrl: '/images/',
     price: 1117761000,
     type: 'Apartment',
     subtype: '1 BR Type A',
@@ -267,6 +273,7 @@ export const properties = [
   },
 
   {
+    imageUrl: '/images/',
     price: 1034830000,
     type: 'Apartment',
     subtype: '1 BR Type Corner A',
@@ -313,6 +320,7 @@ export const properties = [
   },
 
   {
+    imageUrl: '/images/',
     price: 1068372000,
     type: 'Apartment',
     subtype: '1 BR Type B',
@@ -359,6 +367,7 @@ export const properties = [
   },
 
   {
+    imageUrl: '/images/',
     price: 1051061000,
     type: 'Apartment',
     subtype: '1 BR Type Corner B',
@@ -405,6 +414,7 @@ export const properties = [
   },
 
   {
+    imageUrl: '/images/',
     price: 1042652000,
     type: 'Apartment',
     subtype: '1 BR Type C',
@@ -451,6 +461,7 @@ export const properties = [
   },
 
   {
+    imageUrl: '/images/',
     price: 1009002000,
     type: 'Apartment',
     subtype: '1 BR Type Corner C',
@@ -497,6 +508,7 @@ export const properties = [
   },
 
   {
+    imageUrl: '/images/',
     price: 1383628000,
     type: 'Apartment',
     subtype: '1 BR Type D',
@@ -543,6 +555,7 @@ export const properties = [
   },
 
   {
+    imageUrl: '/images/',
     price: 1070899000,
     type: 'Apartment',
     subtype: '1 BR Type Corner D',
@@ -589,6 +602,7 @@ export const properties = [
   },
 
   {
+    imageUrl: '/images/',
     price: 1428807000,
     type: 'Apartment',
     subtype: '2 BR Type A',
@@ -635,6 +649,7 @@ export const properties = [
   },
 
   {
+    imageUrl: '/images/',
     price: 1587596000,
     type: 'Apartment',
     subtype: '2 BR Type B',
@@ -681,6 +696,7 @@ export const properties = [
   },
 
   {
+    imageUrl: '/images/',
     price: 1484609000,
     type: 'Apartment',
     subtype: '2 BR Type C',
@@ -727,6 +743,7 @@ export const properties = [
   },
 
   {
+    imageUrl: '/images/',
     price: 1824711000,
     type: 'Apartment',
     subtype: '2 BR Type D',
@@ -773,6 +790,7 @@ export const properties = [
   },
 
   {
+    imageUrl: '/images/',
     price: 1628040000,
     type: 'Apartment',
     subtype: '2 BR Type E',
@@ -819,6 +837,7 @@ export const properties = [
   },
 
   {
+    imageUrl: '/images/',
     price: 1664649000,
     type: 'Apartment',
     subtype: '2 BR Type F',
@@ -865,6 +884,7 @@ export const properties = [
   },
 
   {
+    imageUrl: '/images/',
     price: 0,
     type: 'Apartment',
     subtype: '3 BR Type A',
