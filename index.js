@@ -1,7 +1,10 @@
-const propertiesData = require('./properties.json')
+import { properties } from './properties.js'
+
 const propertyListElement = document.getElementById('property-list')
 
-propertiesData.forEach((property) => {
+console.log(properties[0])
+
+properties.forEach((property) => {
   const propertyElement = document.createElement('div')
   propertyElement.innerHTML = `
   <h1>${property.name}</h1>
