@@ -9,6 +9,16 @@ const formatRupiah = (price) => {
   }).format(price)
 }
 
+const formatBedroomText = (numberOfBedrooms) => {
+  if (numberOfBedrooms === 0) {
+    return 'Studio'
+  } else if (numberOfBedrooms === 1) {
+    return '1 Bedroom'
+  } else {
+    return `${numberOfBedrooms} Bedrooms`
+  }
+}
+
 const formatLocation = (location) => {
   return `${location.address}, ${location.city}, ${location.province}, ${location.zipCode}`
 }
@@ -20,9 +30,9 @@ properties.forEach((property) => {
   <h1>${property.name}</h1>
   <h2>${property.type} ${property.subtype}</h2>
   <h3>${formatRupiah(property.price)}</h3>
-  <p>${property.numberOfBedrooms} bd ${property.numberOfBathrooms} ba ${
-    property.unitSize
-  } m²</p>
+  <p>${formatBedroomText(property.numberOfBedrooms)} ${
+    property.numberOfBathrooms
+  } ba ${property.unitSize} m²</p>
   <p>${formatLocation(property.location)}</p>
   <hr/>
   `
