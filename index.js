@@ -19,6 +19,14 @@ const formatBedroomText = (numberOfBedrooms) => {
   }
 }
 
+const formatBathroomText = (numberOfBathrooms) => {
+  if (numberOfBathrooms === 1) {
+    return '1 Bathroom'
+  } else {
+    return `${numberOfBathrooms} Bathrooms`
+  }
+}
+
 const formatLocation = (location) => {
   return `${location.address}, ${location.city}, ${location.province}, ${location.zipCode}`
 }
@@ -30,9 +38,9 @@ properties.forEach((property) => {
   <h1>${property.name}</h1>
   <h2>${property.type} ${property.subtype}</h2>
   <h3>${formatRupiah(property.price)}</h3>
-  <p>${formatBedroomText(property.numberOfBedrooms)} ${
+  <p>${formatBedroomText(property.numberOfBedrooms)} ${formatBathroomText(
     property.numberOfBathrooms
-  } ba ${property.unitSize} m²</p>
+  )} ${property.unitSize} m²</p>
   <p>${formatLocation(property.location)}</p>
   <hr/>
   `
