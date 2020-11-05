@@ -2,6 +2,8 @@
 
 This is a simple property listing application
 
+Access it here: https://simple-megahproperty.netlify.app
+
 ## Features
 
 - User can see properties listed
