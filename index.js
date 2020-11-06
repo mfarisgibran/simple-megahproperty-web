@@ -5,7 +5,7 @@ const propertyListElement = document.getElementById('property-list')
 const formatRupiah = (price) => {
   return new Intl.NumberFormat('id-ID', {
     style: 'currency',
-    currency: 'IDR'
+    currency: 'IDR',
   }).format(price)
 }
 
@@ -37,7 +37,7 @@ properties.forEach((property) => {
 
   propertyElement.innerHTML = `
     <img class="property-image" src="${
-      property.imageUrl
+      property.images[0]
     }" height="250" width="350"/>
     <div class="property-info">
       <h1 class="property-name">${property.name}</h1>

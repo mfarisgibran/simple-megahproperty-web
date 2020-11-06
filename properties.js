@@ -1,6 +1,10 @@
 export const properties = [
   {
-    imageUrl: '/images/mfarisgibran-house.webp',
+    images: [
+      '/images/mfarisgibran-house.jpg',
+      '/images/mfarisgibran-house-2.jpg',
+      '/images/mfarisgibran-house-3.jpg',
+    ],
     price: 5500000000,
     type: 'House',
     subtype: '',
@@ -38,7 +42,7 @@ export const properties = [
   },
 
   {
-    imageUrl: '/images/studio-type-a.jpg',
+    images: ['/images/studio-type-a.jpg'],
     price: 652377000,
     type: 'Apartment',
     subtype: 'Studio Type A',
@@ -85,7 +89,7 @@ export const properties = [
   },
 
   {
-    imageUrl: '/images/studio-type-b.jpg',
+    images: ['/images/studio-type-b.jpg'],
     price: 678424000,
     type: 'Apartment',
     subtype: 'Studio Type B',
@@ -132,7 +136,7 @@ export const properties = [
   },
 
   {
-    imageUrl: '/images/studio-type-c.jpg',
+    images: ['/images/studio-type-c.jpg'],
     price: 720356000,
     type: 'Apartment',
     subtype: 'Studio Type C',
@@ -179,7 +183,7 @@ export const properties = [
   },
 
   {
-    imageUrl: '/images/studio-type-d.jpg',
+    images: ['/images/studio-type-d.jpg'],
     price: 760891000,
     type: 'Apartment',
     subtype: 'Studio Type D',
@@ -226,7 +230,7 @@ export const properties = [
   },
 
   {
-    imageUrl: '/images/1-br-type-a.jpg',
+    images: ['/images/1-br-type-a.jpg'],
     price: 1117761000,
     type: 'Apartment',
     subtype: '1 BR Type A',
@@ -273,7 +277,7 @@ export const properties = [
   },
 
   {
-    imageUrl: '/images/1-br-type-a-corner.jpg',
+    images: ['/images/1-br-type-a-corner.jpg'],
     price: 1034830000,
     type: 'Apartment',
     subtype: '1 BR Type Corner A',
@@ -320,7 +324,7 @@ export const properties = [
   },
 
   {
-    imageUrl: '/images/1-br-type-b.jpg',
+    images: ['/images/1-br-type-b.jpg'],
     price: 1068372000,
     type: 'Apartment',
     subtype: '1 BR Type B',
@@ -367,7 +371,7 @@ export const properties = [
   },
 
   {
-    imageUrl: '/images/1-br-type-b-corner.jpg',
+    images: ['/images/1-br-type-b-corner.jpg'],
     price: 1051061000,
     type: 'Apartment',
     subtype: '1 BR Type Corner B',
@@ -414,7 +418,7 @@ export const properties = [
   },
 
   {
-    imageUrl: '/images/1-br-type-c.jpg',
+    images: ['/images/1-br-type-c.jpg'],
     price: 1042652000,
     type: 'Apartment',
     subtype: '1 BR Type C',
@@ -461,7 +465,7 @@ export const properties = [
   },
 
   {
-    imageUrl: '/images/1-br-type-c-corner.jpg',
+    images: ['/images/1-br-type-c-corner.jpg'],
     price: 1009002000,
     type: 'Apartment',
     subtype: '1 BR Type Corner C',
@@ -508,7 +512,7 @@ export const properties = [
   },
 
   {
-    imageUrl: '/images/1-br-type-d.jpg',
+    images: ['/images/1-br-type-d.jpg'],
     price: 1383628000,
     type: 'Apartment',
     subtype: '1 BR Type D',
@@ -555,7 +559,7 @@ export const properties = [
   },
 
   {
-    imageUrl: '/images/1-br-type-d-corner.jpg',
+    images: ['/images/1-br-type-d-corner.jpg'],
     price: 1070899000,
     type: 'Apartment',
     subtype: '1 BR Type Corner D',
@@ -602,7 +606,7 @@ export const properties = [
   },
 
   {
-    imageUrl: '/images/2-br-type-a.jpg',
+    images: ['/images/2-br-type-a.jpg'],
     price: 1428807000,
     type: 'Apartment',
     subtype: '2 BR Type A',
@@ -649,7 +653,7 @@ export const properties = [
   },
 
   {
-    imageUrl: '/images/2-br-type-b.jpg',
+    images: ['/images/2-br-type-b.jpg'],
     price: 1587596000,
     type: 'Apartment',
     subtype: '2 BR Type B',
@@ -696,7 +700,7 @@ export const properties = [
   },
 
   {
-    imageUrl: '/images/2-br-type-c.jpg',
+    images: ['/images/2-br-type-c.jpg'],
     price: 1484609000,
     type: 'Apartment',
     subtype: '2 BR Type C',
@@ -743,7 +747,7 @@ export const properties = [
   },
 
   {
-    imageUrl: '/images/2-br-type-d.jpg',
+    images: ['/images/2-br-type-d.jpg'],
     price: 1824711000,
     type: 'Apartment',
     subtype: '2 BR Type D',
@@ -790,7 +794,7 @@ export const properties = [
   },
 
   {
-    imageUrl: '/images/2-br-type-e.jpg',
+    images: ['/images/2-br-type-e.jpg'],
     price: 1628040000,
     type: 'Apartment',
     subtype: '2 BR Type E',
@@ -837,7 +841,7 @@ export const properties = [
   },
 
   {
-    imageUrl: '/images/2-br-type-f.jpg',
+    images: ['/images/2-br-type-f.jpg'],
     price: 1664649000,
     type: 'Apartment',
     subtype: '2 BR Type F',
@@ -884,7 +888,7 @@ export const properties = [
   },
 
   {
-    imageUrl: '/images/3-br-type-a.jpg',
+    images: ['/images/3-br-type-a.jpg'],
     price: 2026878000,
     type: 'Apartment',
     subtype: '3 BR Type A',
