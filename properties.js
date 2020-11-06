@@ -1,7 +1,7 @@
 export const properties = [
   {
     imageUrl: '/images/mfarisgibran-house.webp',
-    price: 2500000000,
+    price: 5500000000,
     type: 'House',
     subtype: '',
     name: "M Faris Gibran's House",
