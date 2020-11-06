@@ -28,7 +28,9 @@ body {
 
 .property {
   display: flex;
-  padding: 30px;
+  margin: 30px;
+  text-decoration: none;
+  color: #000;
 }
 
 .property-info {

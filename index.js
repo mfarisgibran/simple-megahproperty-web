@@ -32,8 +32,9 @@ const formatLocation = (location) => {
 }
 
 properties.forEach((property) => {
-  const propertyElement = document.createElement('div')
+  const propertyElement = document.createElement('a')
   propertyElement.classList.add('property')
+  propertyElement.setAttribute('href', '/property')
 
   propertyElement.innerHTML = `
     <img class="property-image" src="${
