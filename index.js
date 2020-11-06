@@ -1,35 +1,12 @@
 import { properties } from './properties.js'
+import {
+  formatRupiah,
+  formatBedroomText,
+  formatBathroomText,
+  formatLocation
+} from './lib.js'
 
 const propertyListElement = document.getElementById('property-list')
-
-export const formatRupiah = (price) => {
-  return new Intl.NumberFormat('id-ID', {
-    style: 'currency',
-    currency: 'IDR',
-  }).format(price)
-}
-
-const formatBedroomText = (numberOfBedrooms) => {
-  if (numberOfBedrooms === 0) {
-    return 'Studio'
-  } else if (numberOfBedrooms === 1) {
-    return '1 Bedroom'
-  } else {
-    return `${numberOfBedrooms} Bedrooms`
-  }
-}
-
-const formatBathroomText = (numberOfBathrooms) => {
-  if (numberOfBathrooms === 1) {
-    return '1 Bathroom'
-  } else {
-    return `${numberOfBathrooms} Bathrooms`
-  }
-}
-
-const formatLocation = (location) => {
-  return `${location.address}, ${location.city}, ${location.province}, ${location.zipCode}`
-}
 
 const displayProperties = () => {
   properties.forEach((property) => {
