@@ -1,5 +1,10 @@
 import { properties } from '../properties.js'
-import { formatRupiah } from '../lib.js'
+import {
+  formatRupiah,
+  formatBedroomText,
+  formatBathroomText,
+  formatLocation,
+} from '../lib.js'
 
 const query = new URLSearchParams(window.location.search)
 const id = Number(query.get('id'))
@@ -17,7 +22,7 @@ const propertyNearestObjects = document.getElementById(
   'property-nearest-objects'
 )
 
-selectedProperty.listOfNearestObject.forEach((nearestObject) => {
+selectedProperty.listOfNearestObjects.forEach((nearestObject) => {
   const nearestObjectElement = document.createElement('li') // HTML Element
   nearestObjectElement.innerText = nearestObject // 'Superindo'
   propertyNearestObjects.appendChild(nearestObjectElement)
