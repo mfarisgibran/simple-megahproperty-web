@@ -18,7 +18,7 @@ export const properties = [
     numberOfBedrooms: 4,
     numberOfBathrooms: 4,
     parkingLot: true,
-    listOfNearestObject: [
+    listOfNearestObjects: [
       'Superindo',
       'Fresh Market',
       'SMP 123',
@@ -57,7 +57,7 @@ export const properties = [
     numberOfBedrooms: 0,
     numberOfBathrooms: 1,
     parkingLot: true,
-    listOfNearestObject: [
+    listOfNearestObjects: [
       'Teraskota',
       'Giant BSD',
       'Pasar Modern',
@@ -105,7 +105,7 @@ export const properties = [
     numberOfBedrooms: 0,
     numberOfBathrooms: 1,
     parkingLot: true,
-    listOfNearestObject: [
+    listOfNearestObjects: [
       'Teraskota',
       'Giant BSD',
       'Pasar Modern',
@@ -139,7 +139,7 @@ export const properties = [
   },
 
   {
-    id: 0,
+    id: 4,
     images: ['/images/studio-type-c.jpg'],
     price: 720356000,
     type: 'Apartment',
@@ -153,7 +153,7 @@ export const properties = [
     numberOfBedrooms: 0,
     numberOfBathrooms: 1,
     parkingLot: true,
-    listOfNearestObject: [
+    listOfNearestObjects: [
       'Teraskota',
       'Giant BSD',
       'Pasar Modern',
@@ -187,7 +187,7 @@ export const properties = [
   },
 
   {
-    id: 0,
+    id: 5,
     images: ['/images/studio-type-d.jpg'],
     price: 760891000,
     type: 'Apartment',
@@ -201,7 +201,7 @@ export const properties = [
     numberOfBedrooms: 0,
     numberOfBathrooms: 1,
     parkingLot: true,
-    listOfNearestObject: [
+    listOfNearestObjects: [
       'Teraskota',
       'Giant BSD',
       'Pasar Modern',
@@ -235,7 +235,7 @@ export const properties = [
   },
 
   {
-    id: 0,
+    id: 6,
     images: ['/images/1-br-type-a.jpg'],
     price: 1117761000,
     type: 'Apartment',
@@ -249,7 +249,7 @@ export const properties = [
     numberOfBedrooms: 1,
     numberOfBathrooms: 1,
     parkingLot: true,
-    listOfNearestObject: [
+    listOfNearestObjects: [
       'Teraskota',
       'Giant BSD',
       'Pasar Modern',
@@ -283,7 +283,7 @@ export const properties = [
   },
 
   {
-    id: 0,
+    id: 7,
     images: ['/images/1-br-type-a-corner.jpg'],
     price: 1034830000,
     type: 'Apartment',
@@ -297,7 +297,7 @@ export const properties = [
     numberOfBedrooms: 1,
     numberOfBathrooms: 1,
     parkingLot: true,
-    listOfNearestObject: [
+    listOfNearestObjects: [
       'Teraskota',
       'Giant BSD',
       'Pasar Modern',
@@ -331,7 +331,7 @@ export const properties = [
   },
 
   {
-    id: 0,
+    id: 8,
     images: ['/images/1-br-type-b.jpg'],
     price: 1068372000,
     type: 'Apartment',
@@ -345,7 +345,7 @@ export const properties = [
     numberOfBedrooms: 1,
     numberOfBathrooms: 1,
     parkingLot: true,
-    listOfNearestObject: [
+    listOfNearestObjects: [
       'Teraskota',
       'Giant BSD',
       'Pasar Modern',
@@ -379,7 +379,7 @@ export const properties = [
   },
 
   {
-    id: 0,
+    id: 9,
     images: ['/images/1-br-type-b-corner.jpg'],
     price: 1051061000,
     type: 'Apartment',
@@ -393,7 +393,7 @@ export const properties = [
     numberOfBedrooms: 1,
     numberOfBathrooms: 1,
     parkingLot: true,
-    listOfNearestObject: [
+    listOfNearestObjects: [
       'Teraskota',
       'Giant BSD',
       'Pasar Modern',
@@ -427,7 +427,7 @@ export const properties = [
   },
 
   {
-    id: 0,
+    id: 10,
     images: ['/images/1-br-type-c.jpg'],
     price: 1042652000,
     type: 'Apartment',
@@ -441,7 +441,7 @@ export const properties = [
     numberOfBedrooms: 1,
     numberOfBathrooms: 1,
     parkingLot: true,
-    listOfNearestObject: [
+    listOfNearestObjects: [
       'Teraskota',
       'Giant BSD',
       'Pasar Modern',
@@ -475,7 +475,7 @@ export const properties = [
   },
 
   {
-    id: 0,
+    id: 11,
     images: ['/images/1-br-type-c-corner.jpg'],
     price: 1009002000,
     type: 'Apartment',
@@ -489,7 +489,7 @@ export const properties = [
     numberOfBedrooms: 1,
     numberOfBathrooms: 1,
     parkingLot: true,
-    listOfNearestObject: [
+    listOfNearestObjects: [
       'Teraskota',
       'Giant BSD',
       'Pasar Modern',
@@ -523,7 +523,7 @@ export const properties = [
   },
 
   {
-    id: 0,
+    id: 12,
     images: ['/images/1-br-type-d.jpg'],
     price: 1383628000,
     type: 'Apartment',
@@ -537,7 +537,7 @@ export const properties = [
     numberOfBedrooms: 1,
     numberOfBathrooms: 1,
     parkingLot: true,
-    listOfNearestObject: [
+    listOfNearestObjects: [
       'Teraskota',
       'Giant BSD',
       'Pasar Modern',
@@ -571,7 +571,7 @@ export const properties = [
   },
 
   {
-    id: 0,
+    id: 13,
     images: ['/images/1-br-type-d-corner.jpg'],
     price: 1070899000,
     type: 'Apartment',
@@ -585,7 +585,7 @@ export const properties = [
     numberOfBedrooms: 1,
     numberOfBathrooms: 1,
     parkingLot: true,
-    listOfNearestObject: [
+    listOfNearestObjects: [
       'Teraskota',
       'Giant BSD',
       'Pasar Modern',
@@ -619,7 +619,7 @@ export const properties = [
   },
 
   {
-    id: 0,
+    id: 14,
     images: ['/images/2-br-type-a.jpg'],
     price: 1428807000,
     type: 'Apartment',
@@ -633,7 +633,7 @@ export const properties = [
     numberOfBedrooms: 2,
     numberOfBathrooms: 1,
     parkingLot: true,
-    listOfNearestObject: [
+    listOfNearestObjects: [
       'Teraskota',
       'Giant BSD',
       'Pasar Modern',
@@ -667,7 +667,7 @@ export const properties = [
   },
 
   {
-    id: 0,
+    id: 15,
     images: ['/images/2-br-type-b.jpg'],
     price: 1587596000,
     type: 'Apartment',
@@ -681,7 +681,7 @@ export const properties = [
     numberOfBedrooms: 2,
     numberOfBathrooms: 1,
     parkingLot: true,
-    listOfNearestObject: [
+    listOfNearestObjects: [
       'Teraskota',
       'Giant BSD',
       'Pasar Modern',
@@ -715,7 +715,7 @@ export const properties = [
   },
 
   {
-    id: 0,
+    id: 16,
     images: ['/images/2-br-type-c.jpg'],
     price: 1484609000,
     type: 'Apartment',
@@ -729,7 +729,7 @@ export const properties = [
     numberOfBedrooms: 2,
     numberOfBathrooms: 1,
     parkingLot: true,
-    listOfNearestObject: [
+    listOfNearestObjects: [
       'Teraskota',
       'Giant BSD',
       'Pasar Modern',
@@ -763,7 +763,7 @@ export const properties = [
   },
 
   {
-    id: 0,
+    id: 17,
     images: ['/images/2-br-type-d.jpg'],
     price: 1824711000,
     type: 'Apartment',
@@ -777,7 +777,7 @@ export const properties = [
     numberOfBedrooms: 2,
     numberOfBathrooms: 1,
     parkingLot: true,
-    listOfNearestObject: [
+    listOfNearestObjects: [
       'Teraskota',
       'Giant BSD',
       'Pasar Modern',
@@ -811,7 +811,7 @@ export const properties = [
   },
 
   {
-    id: 0,
+    id: 18,
     images: ['/images/2-br-type-e.jpg'],
     price: 1628040000,
     type: 'Apartment',
@@ -825,7 +825,7 @@ export const properties = [
     numberOfBedrooms: 2,
     numberOfBathrooms: 1,
     parkingLot: true,
-    listOfNearestObject: [
+    listOfNearestObjects: [
       'Teraskota',
       'Giant BSD',
       'Pasar Modern',
@@ -859,7 +859,7 @@ export const properties = [
   },
 
   {
-    id: 0,
+    id: 19,
     images: ['/images/2-br-type-f.jpg'],
     price: 1664649000,
     type: 'Apartment',
@@ -873,7 +873,7 @@ export const properties = [
     numberOfBedrooms: 2,
     numberOfBathrooms: 1,
     parkingLot: true,
-    listOfNearestObject: [
+    listOfNearestObjects: [
       'Teraskota',
       'Giant BSD',
       'Pasar Modern',
@@ -907,7 +907,7 @@ export const properties = [
   },
 
   {
-    id: 0,
+    id: 20,
     images: ['/images/3-br-type-a.jpg'],
     price: 2026878000,
     type: 'Apartment',
@@ -921,7 +921,7 @@ export const properties = [
     numberOfBedrooms: 3,
     numberOfBathrooms: 2,
     parkingLot: true,
-    listOfNearestObject: [
+    listOfNearestObjects: [
       'Teraskota',
       'Giant BSD',
       'Pasar Modern',
