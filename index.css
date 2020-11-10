@@ -56,3 +56,17 @@ body {
 .property-price {
   font-size: 24px;
 }
+
+.individual-property-container {
+  display: flex;
+}
+
+.property-info {
+  min-width: 450px;
+}
+
+.property-images {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: 1fr 1fr;
+}
