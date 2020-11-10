@@ -61,10 +61,6 @@ body {
   display: flex;
 }
 
-.property-info {
-  min-width: 450px;
-}
-
 .property-images {
   display: grid;
   grid-gap: 10px;
