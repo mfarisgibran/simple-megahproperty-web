@@ -29,13 +29,8 @@ propertyName.innerText = selectedProperty.name
 const propertyPrice = document.getElementById('property-price')
 propertyPrice.innerText = formatRupiah(selectedProperty.price)
 
-/*
-const propertyType = document.getElementById('property-type-subtype')
-propertyType.innerText = selectedProperty.type
-
-const propertySubtype = document.getElementById('property-type-subtype')
-propertySubtype.innerText = selectedProperty.subtype
-*/
+const propertyTypeSubtype = document.getElementById('property-type-subtype')
+propertyTypeSubtype.innerText = `${selectedProperty.type} ${selectedProperty.subtype}`
 
 const propertyBedroom = document.getElementById('property-bedroom')
 propertyBedroom.innerText = formatBedroomText(selectedProperty.numberOfBedrooms)
