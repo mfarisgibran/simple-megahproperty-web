@@ -3,13 +3,13 @@ import {
   formatRupiah,
   formatBedroomText,
   formatBathroomText,
-  formatLocation,
+  formatLocation
 } from '../lib.js'
 
 const query = new URLSearchParams(window.location.search)
 const id = Number(query.get('id'))
 
-const selectedProperty = properties.find((property) => {
+export const selectedProperty = properties.find((property) => {
   if (id === property.id) {
     return property
   }

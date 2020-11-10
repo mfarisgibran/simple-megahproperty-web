@@ -4,7 +4,7 @@ export const properties = [
     images: [
       '/images/mfarisgibran-house.jpg',
       '/images/mfarisgibran-house-2.jpg',
-      '/images/mfarisgibran-house-3.jpg',
+      '/images/mfarisgibran-house-3.jpg'
     ],
     price: 5500000000,
     type: 'House',
@@ -27,7 +27,7 @@ export const properties = [
       'Indomaret',
       'Alfamart',
       'ATM',
-      'Pertamina Petrol Station',
+      'Pertamina Petrol Station'
     ],
     location: {
       address: 'Jl. H. Gemin No. 47',
@@ -37,9 +37,9 @@ export const properties = [
       country: 'Indonesia',
       geolocation: {
         lat: -6.28132,
-        long: 106.94759,
-      },
-    },
+        lng: 106.94759
+      }
+    }
   },
 
   {
@@ -75,7 +75,7 @@ export const properties = [
       'Bina Nusantara University',
       'Jakarta Nanyang School',
       'Prasetiya Mulya University',
-      'Sampoerna Academy',
+      'Sampoerna Academy'
     ],
     location: {
       address: 'CBD Serpong Lot I No. 9',
@@ -85,9 +85,9 @@ export const properties = [
       country: 'Indonesia',
       geolocation: {
         lat: -6.2937617,
-        long: 106.6623471,
-      },
-    },
+        lng: 106.6623471
+      }
+    }
   },
 
   {
@@ -123,7 +123,7 @@ export const properties = [
       'Bina Nusantara University',
       'Jakarta Nanyang School',
       'Prasetiya Mulya University',
-      'Sampoerna Academy',
+      'Sampoerna Academy'
     ],
     location: {
       address: 'CBD Serpong Lot I No. 9',
@@ -133,9 +133,9 @@ export const properties = [
       country: 'Indonesia',
       geolocation: {
         lat: -6.2937617,
-        long: 106.6623471,
-      },
-    },
+        lng: 106.6623471
+      }
+    }
   },
 
   {
@@ -171,7 +171,7 @@ export const properties = [
       'Bina Nusantara University',
       'Jakarta Nanyang School',
       'Prasetiya Mulya University',
-      'Sampoerna Academy',
+      'Sampoerna Academy'
     ],
     location: {
       address: 'CBD Serpong Lot I No. 9',
@@ -181,9 +181,9 @@ export const properties = [
       country: 'Indonesia',
       geolocation: {
         lat: -6.2937617,
-        long: 106.6623471,
-      },
-    },
+        lng: 106.6623471
+      }
+    }
   },
 
   {
@@ -219,7 +219,7 @@ export const properties = [
       'Bina Nusantara University',
       'Jakarta Nanyang School',
       'Prasetiya Mulya University',
-      'Sampoerna Academy',
+      'Sampoerna Academy'
     ],
     location: {
       address: 'CBD Serpong Lot I No. 9',
@@ -229,9 +229,9 @@ export const properties = [
       country: 'Indonesia',
       geolocation: {
         lat: -6.2937617,
-        long: 106.6623471,
-      },
-    },
+        lng: 106.6623471
+      }
+    }
   },
 
   {
@@ -267,7 +267,7 @@ export const properties = [
       'Bina Nusantara University',
       'Jakarta Nanyang School',
       'Prasetiya Mulya University',
-      'Sampoerna Academy',
+      'Sampoerna Academy'
     ],
     location: {
       address: 'CBD Serpong Lot I No. 9',
@@ -277,9 +277,9 @@ export const properties = [
       country: 'Indonesia',
       geolocation: {
         lat: -6.2937617,
-        long: 106.6623471,
-      },
-    },
+        lng: 106.6623471
+      }
+    }
   },
 
   {
@@ -315,7 +315,7 @@ export const properties = [
       'Bina Nusantara University',
       'Jakarta Nanyang School',
       'Prasetiya Mulya University',
-      'Sampoerna Academy',
+      'Sampoerna Academy'
     ],
     location: {
       address: 'CBD Serpong Lot I No. 9',
@@ -325,9 +325,9 @@ export const properties = [
       country: 'Indonesia',
       geolocation: {
         lat: -6.2937617,
-        long: 106.6623471,
-      },
-    },
+        lng: 106.6623471
+      }
+    }
   },
 
   {
@@ -363,7 +363,7 @@ export const properties = [
       'Bina Nusantara University',
       'Jakarta Nanyang School',
       'Prasetiya Mulya University',
-      'Sampoerna Academy',
+      'Sampoerna Academy'
     ],
     location: {
       address: 'CBD Serpong Lot I No. 9',
@@ -373,9 +373,9 @@ export const properties = [
       country: 'Indonesia',
       geolocation: {
         lat: -6.2937617,
-        long: 106.6623471,
-      },
-    },
+        lng: 106.6623471
+      }
+    }
   },
 
   {
@@ -411,7 +411,7 @@ export const properties = [
       'Bina Nusantara University',
       'Jakarta Nanyang School',
       'Prasetiya Mulya University',
-      'Sampoerna Academy',
+      'Sampoerna Academy'
     ],
     location: {
       address: 'CBD Serpong Lot I No. 9',
@@ -421,9 +421,9 @@ export const properties = [
       country: 'Indonesia',
       geolocation: {
         lat: -6.2937617,
-        long: 106.6623471,
-      },
-    },
+        lng: 106.6623471
+      }
+    }
   },
 
   {
@@ -459,7 +459,7 @@ export const properties = [
       'Bina Nusantara University',
       'Jakarta Nanyang School',
       'Prasetiya Mulya University',
-      'Sampoerna Academy',
+      'Sampoerna Academy'
     ],
     location: {
       address: 'CBD Serpong Lot I No. 9',
@@ -469,9 +469,9 @@ export const properties = [
       country: 'Indonesia',
       geolocation: {
         lat: -6.2937617,
-        long: 106.6623471,
-      },
-    },
+        lng: 106.6623471
+      }
+    }
   },
 
   {
@@ -507,7 +507,7 @@ export const properties = [
       'Bina Nusantara University',
       'Jakarta Nanyang School',
       'Prasetiya Mulya University',
-      'Sampoerna Academy',
+      'Sampoerna Academy'
     ],
     location: {
       address: 'CBD Serpong Lot I No. 9',
@@ -517,9 +517,9 @@ export const properties = [
       country: 'Indonesia',
       geolocation: {
         lat: -6.2937617,
-        long: 106.6623471,
-      },
-    },
+        lng: 106.6623471
+      }
+    }
   },
 
   {
@@ -555,7 +555,7 @@ export const properties = [
       'Bina Nusantara University',
       'Jakarta Nanyang School',
       'Prasetiya Mulya University',
-      'Sampoerna Academy',
+      'Sampoerna Academy'
     ],
     location: {
       address: 'CBD Serpong Lot I No. 9',
@@ -565,9 +565,9 @@ export const properties = [
       country: 'Indonesia',
       geolocation: {
         lat: -6.2937617,
-        long: 106.6623471,
-      },
-    },
+        lng: 106.6623471
+      }
+    }
   },
 
   {
@@ -603,7 +603,7 @@ export const properties = [
       'Bina Nusantara University',
       'Jakarta Nanyang School',
       'Prasetiya Mulya University',
-      'Sampoerna Academy',
+      'Sampoerna Academy'
     ],
     location: {
       address: 'CBD Serpong Lot I No. 9',
@@ -613,9 +613,9 @@ export const properties = [
       country: 'Indonesia',
       geolocation: {
         lat: -6.2937617,
-        long: 106.6623471,
-      },
-    },
+        lng: 106.6623471
+      }
+    }
   },
 
   {
@@ -651,7 +651,7 @@ export const properties = [
       'Bina Nusantara University',
       'Jakarta Nanyang School',
       'Prasetiya Mulya University',
-      'Sampoerna Academy',
+      'Sampoerna Academy'
     ],
     location: {
       address: 'CBD Serpong Lot I No. 9',
@@ -661,9 +661,9 @@ export const properties = [
       country: 'Indonesia',
       geolocation: {
         lat: -6.2937617,
-        long: 106.6623471,
-      },
-    },
+        lng: 106.6623471
+      }
+    }
   },
 
   {
@@ -699,7 +699,7 @@ export const properties = [
       'Bina Nusantara University',
       'Jakarta Nanyang School',
       'Prasetiya Mulya University',
-      'Sampoerna Academy',
+      'Sampoerna Academy'
     ],
     location: {
       address: 'CBD Serpong Lot I No. 9',
@@ -709,9 +709,9 @@ export const properties = [
       country: 'Indonesia',
       geolocation: {
         lat: -6.2937617,
-        long: 106.6623471,
-      },
-    },
+        lng: 106.6623471
+      }
+    }
   },
 
   {
@@ -747,7 +747,7 @@ export const properties = [
       'Bina Nusantara University',
       'Jakarta Nanyang School',
       'Prasetiya Mulya University',
-      'Sampoerna Academy',
+      'Sampoerna Academy'
     ],
     location: {
       address: 'CBD Serpong Lot I No. 9',
@@ -757,9 +757,9 @@ export const properties = [
       country: 'Indonesia',
       geolocation: {
         lat: -6.2937617,
-        long: 106.6623471,
-      },
-    },
+        lng: 106.6623471
+      }
+    }
   },
 
   {
@@ -795,7 +795,7 @@ export const properties = [
       'Bina Nusantara University',
       'Jakarta Nanyang School',
       'Prasetiya Mulya University',
-      'Sampoerna Academy',
+      'Sampoerna Academy'
     ],
     location: {
       address: 'CBD Serpong Lot I No. 9',
@@ -805,9 +805,9 @@ export const properties = [
       country: 'Indonesia',
       geolocation: {
         lat: -6.2937617,
-        long: 106.6623471,
-      },
-    },
+        lng: 106.6623471
+      }
+    }
   },
 
   {
@@ -843,7 +843,7 @@ export const properties = [
       'Bina Nusantara University',
       'Jakarta Nanyang School',
       'Prasetiya Mulya University',
-      'Sampoerna Academy',
+      'Sampoerna Academy'
     ],
     location: {
       address: 'CBD Serpong Lot I No. 9',
@@ -853,9 +853,9 @@ export const properties = [
       country: 'Indonesia',
       geolocation: {
         lat: -6.2937617,
-        long: 106.6623471,
-      },
-    },
+        lng: 106.6623471
+      }
+    }
   },
 
   {
@@ -891,7 +891,7 @@ export const properties = [
       'Bina Nusantara University',
       'Jakarta Nanyang School',
       'Prasetiya Mulya University',
-      'Sampoerna Academy',
+      'Sampoerna Academy'
     ],
     location: {
       address: 'CBD Serpong Lot I No. 9',
@@ -901,9 +901,9 @@ export const properties = [
       country: 'Indonesia',
       geolocation: {
         lat: -6.2937617,
-        long: 106.6623471,
-      },
-    },
+        lng: 106.6623471
+      }
+    }
   },
 
   {
@@ -939,7 +939,7 @@ export const properties = [
       'Bina Nusantara University',
       'Jakarta Nanyang School',
       'Prasetiya Mulya University',
-      'Sampoerna Academy',
+      'Sampoerna Academy'
     ],
     location: {
       address: 'CBD Serpong Lot I No. 9',
@@ -949,8 +949,8 @@ export const properties = [
       country: 'Indonesia',
       geolocation: {
         lat: -6.2937617,
-        long: 106.6623471,
-      },
-    },
-  },
+        lng: 106.6623471
+      }
+    }
+  }
 ]
