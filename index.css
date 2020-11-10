@@ -37,9 +37,16 @@ body {
   margin-left: 30px;
 }
 
+.property-image-thumbnail {
+  object-fit: cover;
+  border-radius: 10px;
+}
+
 .property-image {
   object-fit: cover;
   border-radius: 10px;
+  height: 300px;
+  width: 450px;
 }
 
 .property-name {

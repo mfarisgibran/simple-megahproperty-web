@@ -15,13 +15,13 @@ const selectedProperty = properties.find((property) => {
   }
 })
 
-/*const propertyImage = document.getElementById('property-image')
-
+const propertyImages = document.getElementById('property-images')
 selectedProperty.images.forEach((image) => {
   const imageElement = document.createElement('img')
-  imageElement.innerText = image
-  propertyImage.appendChild(imageElement)
-})*/
+  imageElement.setAttribute('src', image)
+  imageElement.classList.add('property-image')
+  propertyImages.appendChild(imageElement)
+})
 
 const propertyName = document.getElementById('property-name')
 propertyName.innerText = selectedProperty.name

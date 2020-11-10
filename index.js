@@ -3,7 +3,7 @@ import {
   formatRupiah,
   formatBedroomText,
   formatBathroomText,
-  formatLocation
+  formatLocation,
 } from './lib.js'
 
 const propertyListElement = document.getElementById('property-list')
@@ -18,7 +18,7 @@ const displayProperties = () => {
     )
 
     propertyElement.innerHTML = `
-    <img class="property-image" src="${
+    <img class="property-image-thumbnail" src="${
       property.images[0]
     }" height="250" width="350"/>
     <div class="property-info">
