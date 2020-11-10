@@ -12,6 +12,20 @@
     <link rel="stylesheet" href="../index.css" />
   </head>
   <body>
+    <nav id="navigation" class="navigation">
+      <a href="/">
+        <div class="logo">
+          <img src="/assets/megahproperty-logo.jpg" alt="Logo" height="50" />
+          <h1>Megah Property</h1>
+        </div>
+      </a>
+      <div class="navigation-links">
+        <a href="/">Home</a>
+        <a href="/about">About</a>
+        <a href="/listing">Listing</a>
+      </div>
+    </nav>
+
     <div
       id="individual-property-container"
       class="individual-property-container"
@@ -43,7 +57,7 @@
         container: 'map',
         style: 'mapbox://styles/mapbox/streets-v11',
         center: [106.94759, -6.28132],
-        zoom: 15,
+        zoom: 15
       })
 
       var marker = new mapboxgl.Marker()
